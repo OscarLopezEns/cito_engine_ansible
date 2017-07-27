@@ -59,8 +59,8 @@ DBPORT = 3306
 [RABBITMQ]
 HOST = localhost
 PORT = 5672
-USERNAME = citoengine
-PASSWORD = changeme!
+USERNAME = {{ citoengine_user }}
+PASSWORD = {{ citoengine_pass }}
 SSL = False
 EXCHANGE =
 VHOST = /citoengine_event_listener

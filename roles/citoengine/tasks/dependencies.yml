@@ -13,6 +13,7 @@
     - libldap2-dev
     - libsasl2-dev
     - libssl-dev
+    - libffi-dev
     - mysql-server
     - mysql-client
     - python-mysqldb

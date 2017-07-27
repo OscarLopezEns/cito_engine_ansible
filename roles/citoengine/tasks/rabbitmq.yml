@@ -4,8 +4,8 @@
     state: present
 
 - rabbitmq_user:
-    user: citoengine_user
-    password: citoengine_pass
+    user: "{{ citoengine_user }}"
+    password: "{{ citoengine_pass }}"
     vhost: /citoengine_event_listener
     configure_priv: .*
     read_priv: .*
